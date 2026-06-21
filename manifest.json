@@ -2,14 +2,15 @@
   "name": "Quran Tajweed",
   "short_name": "Quran",
   "description": "Full Quran with tajweed coloring, large mobile font",
-  "start_url": "/index.html",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#fdf8ef",
   "theme_color": "#b08d57",
   "orientation": "portrait",
   "icons": [
     {
-      "src": "/icon-512.png",
+      "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"

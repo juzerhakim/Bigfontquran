@@ -1,5 +1,5 @@
 const CACHE_NAME = 'quran-tajweed-v1';
-const ASSET = '/index.html';
+const ASSET = 'index.html';
 
 self.addEventListener('install', (event) => {
   event.waitUntil(

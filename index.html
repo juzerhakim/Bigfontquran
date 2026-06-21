@@ -9,9 +9,9 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Quran Tajweed">
 <meta name="theme-color" content="#b08d57">
-<link rel="apple-touch-icon" href="/icon-512.png">
-<link rel="icon" href="/icon-512.png">
-<link rel="manifest" href="/manifest.json">
+<link rel="apple-touch-icon" href="icon-512.png">
+<link rel="icon" href="icon-512.png">
+<link rel="manifest" href="manifest.json">
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Scheherazade+New&display=swap');
   * { box-sizing: border-box; }
@@ -2162,7 +2162,7 @@ function showTab(tab){
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function(){
-    navigator.serviceWorker.register('/sw.js').catch(function(e){ console.log('SW failed', e); });
+    navigator.serviceWorker.register('sw.js').catch(function(e){ console.log('SW failed', e); });
   });
 }
 
